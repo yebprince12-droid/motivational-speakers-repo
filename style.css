@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem 2rem;
+    color: white;
+    padding: 1px;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+}
+.nav-links li{
+    padding: 0 15px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+}
+.nav-links a:hover{
+    color:#ffdd57;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+}
+header{
+    font-family:sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 20px;
+    margin-top: 250px;
+    min-height: 60vh;
+}
+header h1{
+    font-weight: bold;
+    font-size: 55px;
+    color: #96311d;
+}
+header p{
+    margin-top: 20px;
+    color: #3c201b;
+    font-size: 20px;
+}
+main div:not(.quote-content,.services-content){
+    background-color: #c5c5c5;
+    margin: 40px 40px 0 40px;
+    height: 330px;
+    border: 2px solid #333;
+    box-shadow: 1px 1px 8px 1px #3f3f3f;
+    display: flex;
+}
+
+nav img{
+    margin-left: 15px;
+    filter: brightness(150%) blur(0.2px);
+    
+}
+main{
+    background-color: #333;
+    padding: 10px 0 10px 0;
+    padding-bottom: 30px;
+    
+}
+main>h2{
+    color: whitesmoke;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+    padding-top: 30px;
+    text-align: center;
+}
+footer{
+
+    margin-top: 50px;
+    height: 200px;text-align: center;
+}
+.address{
+    padding-top: 100px;
+    padding-bottom: 20px;
+    margin-top: -60px;
+}
+.address a{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 12px 100px 12px 100px;
+    border-radius: 10px;
+    margin-right: 50px;
+    box-shadow: 0 0 3px #333;
+    margin-bottom: 10px;
+    display: block;
+    width: 300px;
+    margin: auto;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 30px;
+}
+.address a:hover{
+    background-color: #535151;
+    transform: scale(1.1) translateY(-5px);
+    transition: all 0.3s ease;
+}
+.address a:active{
+    background-color: #333;
+}
+footer h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    display: block;
+    margin-right: 20px;
+    box-sizing: content-box;
+}
+footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+footer{
+    margin-bottom: 20px;
+}
+#top-link{
+    padding-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+    font-size: 19px
+}
+#top-link:hover{
+    color: #96311d;
+}
+div img{
+    min-width: 25%;
+    height: 100%;
+    object-fit: cover;
+}
+.quote-content{
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}  
+.quote-content h2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 200;
+    font-size: 40px;
+} 
+.quote-content p{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+.one{
+margin-bottom: 50px;
+}
+.services{
+    margin: 0 auto;
+    border-radius: 50px;
+    text-align: center;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid #ffdd57;
+    transition: 0.3s all ease;
+}
+.services:hover{
+    background-color: #cfcdcd;
+width: 900px;
+border-radius: 50px;
+}
+.services h2{
+    margin: 0 auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    font-size: 35px;
+    margin-top: 30px;
+}
+.services-content{
+margin: auto;
+font-family: Arial, Helvetica, sans-serif;
+line-height: 1.8;
+font-size: 20px;
+margin-top: 20px;
+}
+.services-content ul{
+    list-style-type: none;
+}
+main .services{
+  display: flex;
+  justify-self: center;
+}
